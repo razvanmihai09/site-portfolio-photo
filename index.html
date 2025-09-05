@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofoliu Fotograf — Numele Tău</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">shotbyrazvan</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <!-- <li><a href="#testimoniale">Testimoniale</a></li> -->
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>I capture energies <span>LIVE</span></h1>
+      <p>"Every beat, every moment, in pictures.”</p>
+      <a href="#portfolio" class="btn glow">See the portfolio</a>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="grid">
+        <a href="images/concert-albert-nbn.jpg" class="grid-item" data-title="">
+          <img src="images/concert-albert-nbn.jpg" alt="Concert #1">
+        </a>
+        <a href="images/concert-asap-rocky.jpg" class="grid-item" data-title="">
+          <img src="images/concert-asap-rocky.jpg" alt="Festival #2">
+        </a>
+        <a href="images/concert-drake.jpg" class="grid-item" data-title="">
+          <img src="images/concert-drake.jpg" alt="Festival #2">
+        </a>
+        <a href="images/concert-lil-baby.png" class="grid-item" data-title="">
+          <img src="images/concert-lil-baby.png" alt="Festival #2">
+        </a>
+       
+
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-img" id="lightbox-img" alt="">
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About me</h2>
+      <p>I'm <strong>Mihai Razvan</strong>, a photographer passionate about live music. I've been capturing the energy of concerts and festivals for over 5 years.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="cards">
+        <div class="card">📸 Live concerts</div>
+        <div class="card">🎶 Festivals</div>
+        <div class="card">🎤 Backstage & Portraits</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="testimoniale" class="section testimonials">
+    <div class="container">
+      <h2>Testimoniale</h2>
+      <blockquote>„Cadrele perfecte pentru vibe-ul festivalului nostru!”</blockquote>
+    </div>
+  </section> -->
+
+<!-- <section id="contact" class="section contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <form id="form-contact" action="https://formspree.io/f/your-id" method="POST">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit" class="btn glow">Send</button>
+      <span id="form-status"></span>
+    </form> -->
+
+    
+    <div class="section contact">
+  <a href="https://instagram.com/shotbyrazvan" target="_blank" class="btn insta-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="insta-icon">
+      <path fill="currentColor"
+        d="M224,202a53,53,0,1,0,53,53A53,53,0,0,0,224,202Zm124.71-41a54,54,0,0,0-30.21-30.21C293.23,122,224,122,224,122s-69.23,0-94.5,8.79A54,54,0,0,0,99.29,161.5C90.5,186.77,90.5,256,90.5,256s0,69.23,8.79,94.5a54,54,0,0,0,30.21,30.21C154.77,390,224,390,224,390s69.23,0,94.5-8.79a54,54,0,0,0,30.21-30.21C357.5,325.23,357.5,256,357.5,256S357.5,186.77,348.71,161.5ZM224,338a82,82,0,1,1,82-82A82,82,0,0,1,224,338Zm85-148a19,19,0,1,1,19-19A19,19,0,0,1,309,190Z"/>
+    </svg>
+    Follow me on Instagram
+  </a>
+</div>
+
+
+<footer class="site-footer">
+  <p>© <span id="an-curent"></span> shotbyrazvan</p>
+  <p>
+
+  <script src="script.js"></script>
+</body>
+</html>
